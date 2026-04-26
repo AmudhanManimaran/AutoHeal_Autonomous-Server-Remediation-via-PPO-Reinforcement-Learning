@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Trained Models (large files — regenerate via train_agent.py)
+# models/           ← keep models/ since .zip files are small enough
+# Uncomment above if model files exceed GitHub's 100MB limit
+
+# TensorBoard logs (large)
+logs/ppo_tensorboard/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
